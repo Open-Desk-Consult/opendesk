@@ -9,8 +9,8 @@ export default styled.div`
   flex-direction: column;
   
   .content {
-    width: 50%;
+    width: 60%;
     font-size: 45.5px;
-    margin-left: 20%;
+    margin-left: 25%;
   }
 `;
