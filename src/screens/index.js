@@ -6,10 +6,12 @@ import Projects from './Projects';
 import Services from './Services';
 import Wrapper from './Wrapper';
 
-export default () => {
+export default ({ routes, setPage }) => {
+  const handleScroll = ({ to }) => setPage(routes[to]);
+
   return (
     <Wrapper>
-      <FullPage>
+      <FullPage afterChange={handleScroll}>
         <Slide>
           <Home />
         </Slide>
