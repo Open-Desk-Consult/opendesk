@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import SideNav from './components/SideNav';
+import Content from './screens';
 
 const Wrapper = styled.div`
   display: flex;
@@ -11,7 +12,7 @@ export default () => {
   return (
     <Wrapper>
       <SideNav />
-      <div>App</div>
+      <Content />
     </Wrapper>
   );
 };

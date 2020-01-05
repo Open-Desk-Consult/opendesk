@@ -7,11 +7,19 @@ export default styled.div`
   height: 100vh;
   width: 200px;
   padding-left: 60px;
+  position: fixed;
 
   .logo {
     height: 70px;
     width: 90px;
     margin-top: 70px;
+
+    transition: all ease-in-out 300ms;
+
+    :hover {
+      transform: scale(1.05);
+      cursor: pointer;
+    }
   }
 
   .menu {
