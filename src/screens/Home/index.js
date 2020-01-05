@@ -1,5 +1,5 @@
 import React from 'react';
 
 export default () => {
-  return <h2>App</h2>;
-};
+  return <h2>Home</h2>
+}
