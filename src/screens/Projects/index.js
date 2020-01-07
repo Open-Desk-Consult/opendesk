@@ -23,8 +23,12 @@ export default () => {
 
   return (
     <Wrapper>
-      Projects
-      {/*<HorizontalSlider id="projects-slider" {...sliderProps}></HorizontalSlider>*/}
+      <div className="header">PROJECTS</div>
+      <div className="content">
+        <div className="intro">
+          Here's some work we're proud to be part of:
+        </div>
+      </div>
     </Wrapper>
   );
 };

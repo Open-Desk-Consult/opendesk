@@ -4,7 +4,8 @@ import Wrapper from './Wrapper';
 export default () => {
   return (
     <Wrapper>
-      <h2>Contact</h2>
+      <div className="header">CONTACT</div>
+      <div className="content">Let's do something amazing!</div>
     </Wrapper>
   );
 };
