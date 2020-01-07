@@ -1,5 +1,10 @@
 import React from 'react';
+import Wrapper from './Wrapper';
 
 export default () => {
-  return <h2>Contact</h2>
-}
+  return (
+    <Wrapper>
+      <h2>Contact</h2>
+    </Wrapper>
+  );
+};

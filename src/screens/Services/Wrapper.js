@@ -5,7 +5,7 @@ export default styled.div`
   justify-content: center;
   align-content: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   flex-direction: column;
 
   .content {
