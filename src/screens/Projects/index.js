@@ -1,5 +1,6 @@
 import React from 'react';
 import { Slide, HorizontalSlider } from 'fullpage-react';
+import ProjectPage from './ProjectPage';
 import Wrapper from './Wrapper';
 
 const slides = [
@@ -23,12 +24,7 @@ export default () => {
 
   return (
     <Wrapper>
-      <div className="header">PROJECTS</div>
-      <div className="content">
-        <div className="intro">
-          Here's some work we're proud to be part of:
-        </div>
-      </div>
+      <ProjectPage />
     </Wrapper>
   );
 };

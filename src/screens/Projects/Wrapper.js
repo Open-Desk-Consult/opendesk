@@ -4,20 +4,59 @@ export default styled.div`
   width: 100%;
   height: 100vh;
 
-  .header {
-    padding-top: 100px;
-    padding-left: 152px;
-    color: #646464;
-    font-size: 13px;
+  display: flex;
+
+  .main {
+    width: 55%;
+    .header {
+      padding-top: 100px;
+      padding-left: 152px;
+      color: #646464;
+      font-size: 13px;
+    }
+
+    .content {
+      padding-left: 152px;
+      margin-top: 69px;
+      font-size: 35px;
+
+      .intro {
+        font-size: 35px;
+        margin-bottom: 110px;
+      }
+
+      .intro-project {
+        width: 450px;
+      }
+
+      .class-project {
+        margin-top: 30px;
+        font-size: 10px;
+        color: #646464;
+      }
+    }
   }
 
-  .content {
-    padding-left: 152px;
-    margin-top: 69px;
-    font-size: 35px;
+  .project-main {
+    width: 45%;
+    background-color: #1d1d1b;
+    display: flex;
+    padding-left: 6vw;
 
-    .intro {
-      font-size: 35px;
+    .project-img {
+      height: auto;
+      width: 80%;
+      align-self: center;
+    }
+
+    .nav-counter {
+      width: 200px;
+      justify-content: space-between;
+      display: flex;
+      color: #ffffff;
+      font-size: 20px;
+      align-self: center;
+      transform: rotate(90deg);
     }
   }
 `;
