@@ -5,8 +5,10 @@ export default () => {
   return (
     <Wrapper>
       <div className="content">
-        Our operation and activity is efficiently and effectively conducted without conflict to our
-        values
+        <div className="text">
+          Our operation and activity is efficiently and effectively conducted without conflict to
+          our values
+        </div>
       </div>
     </Wrapper>
   );

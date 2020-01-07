@@ -1,36 +1,40 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  display: flex;
-  justify-content: center;
-  align-content: center;
   width: 100%;
   height: 100vh;
-  flex-direction: column;
+
+  .header {
+    padding-top: 100px;
+    padding-left: 152px;
+    color: #646464;
+    font-size: 13px;
+  }
 
   .content {
-    width: 90%;
+    padding-left: 152px;
+    margin-top: 85px;
     font-size: 35px;
     display: flex;
     flex-direction: row;
-    align-self: flex-end;
     .col {
-      width: 50%;
-
-      .heading {
+      width: 421px;
+      .col_header {
         margin-bottom: 77px;
       }
       .description {
-        width: 80%;
         margin-bottom: 41px;
       }
       .features {
-        color: #999999;
+        color: #646464;
         font-size: 18px;
         .item {
           margin-bottom: 36px;
         }
       }
+    }
+    .col:nth-child(1) {
+      margin-right: 100px;
     }
   }
 `;

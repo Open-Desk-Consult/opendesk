@@ -11,12 +11,10 @@ const slides = [
   </Slide>,
   <Slide style={{ backgroundColor: 'green' }}>
     <p>Horizontal 3</p>
-  </Slide>
+  </Slide>,
 ];
 
 export default () => {
-
-
   const sliderProps = {
     name: 'horizontalSlider1',
     infinite: false,
@@ -25,7 +23,8 @@ export default () => {
 
   return (
     <Wrapper>
-      <HorizontalSlider id="projects-slider" {...sliderProps} />
+      Projects
+      {/*<HorizontalSlider id="projects-slider" {...sliderProps}></HorizontalSlider>*/}
     </Wrapper>
   );
 };

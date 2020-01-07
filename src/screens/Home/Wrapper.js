@@ -2,15 +2,17 @@ import styled from 'styled-components';
 
 export default styled.div`
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-content: center;
   width: 100%;
-  flex-direction: column;
-  
+
   .content {
-    width: 60%;
+    padding-left: 152px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 400px;
     font-size: 45.5px;
-    margin-left: 25%;
+
+    .text {
+      width: 60%;
+    }
   }
 `;

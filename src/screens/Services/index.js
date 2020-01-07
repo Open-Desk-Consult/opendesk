@@ -4,9 +4,10 @@ import Wrapper from './Wrapper';
 export default () => {
   return (
     <Wrapper>
+      <div className="header">SERVICES</div>
       <div className="content">
         <div className="col">
-          <div className="heading">Design</div>
+          <div className="col_header">Design</div>
           <div className="description">
             Balancing functionality and creativity to deliver brand and digital experiences that
             enhance your projects vision
@@ -19,7 +20,7 @@ export default () => {
           </div>
         </div>
         <div className="col">
-          <div className="heading">Design</div>
+          <div className="col_header">Engineering</div>
           <div className="description">
             Pushing digital development boundaries while creating functional experiences that work
             for our partners and their customers
