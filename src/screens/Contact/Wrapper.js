@@ -16,6 +16,39 @@ export default styled.div`
     margin-top: 85px;
     font-size: 91px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vh - 185px);
+
+    .main {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+
+      .text {
+        width: 30%;
+      }
+
+      .hero {
+        height: 50vh;
+        padding-right: 157px;
+      }
+    }
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-self: flex-end;
+      padding-right: 157px;
+      text-align: end;
+      padding-bottom: 80px;
+      .minor {
+        font-size: 22px;
+        text-decoration: underline;
+      }
+
+      .major {
+        font-size: 100px;
+      }
+    }
   }
 `;
