@@ -27,6 +27,7 @@ export default styled.div`
 
       .text {
         width: 30%;
+        font-weight: bold;
       }
 
       .hero {
@@ -35,6 +36,7 @@ export default styled.div`
       }
     }
     .info {
+      color: #646464;
       display: flex;
       flex-direction: column;
       align-self: flex-end;
@@ -48,6 +50,7 @@ export default styled.div`
 
       .major {
         font-size: 100px;
+        font-weight: bold;
       }
     }
   }
