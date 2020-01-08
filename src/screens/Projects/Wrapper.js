@@ -1,10 +1,13 @@
 import styled from 'styled-components';
 
 export default styled.div`
-  width: 100%;
+  width: calc(100vw - 200px);
   height: 100vh;
 
   display: flex;
+      position: relative;
+
+  scroll-snap-align: start;
 
   .main {
     width: 55%;
