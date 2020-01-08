@@ -14,5 +14,15 @@ export default styled.div`
     .text {
       width: 60%;
     }
+
+    .hero_container {
+      width: 40%;
+      justify-content: flex-end;
+      display: flex;
+      .hero {
+        align-self: flex-end;
+        height: 50vh;
+      }
+    }
   }
 `;
