@@ -11,7 +11,7 @@ export default ({ page }) => {
         <div
           className="item"
           style={{
-            transform: page === 'HOME' ? 'scale(1.05)' : 'scale(1)',
+            color: page === 'HOME' ? 'black' : '#646464',
             fontWeight: page === 'HOME' ? 'bold' : 'inherit',
           }}
         >
@@ -20,7 +20,7 @@ export default ({ page }) => {
         <div
           className="item"
           style={{
-            transform: page === 'SERVICES' ? 'scale(1.05)' : 'scale(1)',
+            color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'SERVICES' ? 'bold' : 'inherit',
           }}
         >
@@ -29,7 +29,7 @@ export default ({ page }) => {
         <div
           className="item"
           style={{
-            transform: page === 'PROJECTS' ? 'scale(1.05)' : 'scale(1)',
+            color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'PROJECTS' ? 'bold' : 'inherit',
           }}
         >
@@ -38,7 +38,7 @@ export default ({ page }) => {
         <div
           className="item"
           style={{
-            transform: page === 'CONTACT' ? 'scale(1.05)' : 'scale(1)',
+            color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'CONTACT' ? 'bold' : 'inherit',
           }}
         >

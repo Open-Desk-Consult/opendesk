@@ -27,7 +27,7 @@ export default styled.div`
 
     .item {
       margin-bottom: 20px;
-      font-size: 10px;
+      font-size: 15px;
       transition: all ease-in-out 300ms;
 
       :hover {
