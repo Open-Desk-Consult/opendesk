@@ -36,7 +36,6 @@ export default styled.div`
       }
     }
     .info {
-      color: #646464;
       display: flex;
       flex-direction: column;
       align-self: flex-end;
