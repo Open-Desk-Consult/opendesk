@@ -8,7 +8,7 @@ export default styled.div`
     padding-left: 152px;
     display: flex;
     flex-direction: row;
-    padding-top: 400px;
+    padding-top: 30vh;
     font-size: 45.5px;
 
     .text {
