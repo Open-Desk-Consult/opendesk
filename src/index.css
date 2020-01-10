@@ -37,3 +37,30 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+.move-right-left-forward-enter {
+  transform: translateX(100%);
+}
+.move-right-left-reverse-enter {
+  transform: translateX(-100%);
+}
+
+.move-right-left-forward-enter-active,
+.move-right-left-reverse-enter-active {
+  transition: transform 1000ms ease-in-out;
+  transform: translateX(0);
+}
+.move-right-left-forward-exit,
+.move-right-left-reverse-exit {
+  transform: translateX(0);
+}
+
+.move-right-left-forward-exit-active {
+  transition: transform 1000ms ease-in-out;
+  transform: translateX(-100%);
+}
+
+.move-right-left-reverse-exit-active {
+  transition: transform 1000ms ease-in-out;
+  transform: translateX(100%);
+}

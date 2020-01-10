@@ -19,6 +19,7 @@ export default styled.div`
       width: 40%;
       justify-content: flex-end;
       display: flex;
+      padding-right: 20px;
       .hero {
         align-self: flex-end;
         height: 50vh;
