@@ -22,11 +22,7 @@ const project_data = [
 export default () => {
   return (
     <div style={{ height: '100vh' }}>
-      <ReactSnapScroll
-        indexChanged={f => console.log(f)}
-        orientation="horizontal"
-        transition="scale-down-up"
-      >
+      <ReactSnapScroll orientation="horizontal" transition="scale-down-up">
         {project_data.map((item, index) => (
           <Wrapper key={index}>
             <ProjectPage index={index + 1} length={project_data.length} {...item} />
