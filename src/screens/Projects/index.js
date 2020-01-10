@@ -1,8 +1,23 @@
 import React from 'react';
-import HorizontalScroll from 'react-scroll-horizontal';
 import ProjectPage from './ProjectPage';
 import Wrapper from './Wrapper';
 import ReactSnapScroll from 'react-snap-scroll';
+import Image from '../../assets/images/project-1.jpg';
+
+const project_data = [
+  {
+    category: 'ENGINEERING',
+    image: Image,
+    description:
+      'A fleet management system to allow efficient monitoring and traffic data analysis',
+  },
+  {
+    category: 'DESIGN AND ENGINEERING',
+    image: Image,
+    description:
+      'A personnel management system for the management of company assets and expatriate contracts',
+  },
+];
 
 export default () => {
   return (
@@ -10,18 +25,13 @@ export default () => {
       <ReactSnapScroll
         indexChanged={f => console.log(f)}
         orientation="horizontal"
-        customTransition="move-left-right"
-        customDuration={{ enter: 1000, exit: 1000 }}
+        transition="scale-down-up"
       >
-        <Wrapper>
-          <ProjectPage />
-        </Wrapper>
-        <Wrapper>
-          <ProjectPage />
-        </Wrapper>
-        <Wrapper>
-          <ProjectPage />
-        </Wrapper>
+        {project_data.map((item, index) => (
+          <Wrapper key={index}>
+            <ProjectPage index={index + 1} length={project_data.length} {...item} />
+          </Wrapper>
+        ))}
       </ReactSnapScroll>
     </div>
   );

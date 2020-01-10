@@ -44,7 +44,6 @@ code {
 .move-right-left-reverse-enter {
   transform: translateX(-100%);
 }
-
 .move-right-left-forward-enter-active,
 .move-right-left-reverse-enter-active {
   transition: transform 1000ms ease-in-out;
