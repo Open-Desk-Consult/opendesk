@@ -1,6 +1,7 @@
 import React from 'react';
 import Wrapper from './Wrapper';
 import hero from '../../assets/images/product-hero.jpg';
+import pattern from '../../assets/images/product-pattern.png';
 
 export default () => {
   return (
@@ -15,17 +16,47 @@ export default () => {
             magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
             dolor sit amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus
             libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
-            amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra
-            mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet
-            et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
+            amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
             lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et
-            dolor magnus libra mango
+            dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem
+            ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
+            magnus libra mango
           </div>
         </div>
         <img className="product_image" alt="product-hero" src={hero} />
       </div>
-      <div className="section">Section 2</div>
-      <div className="section">Section 3</div>
+      <img className="pattern" src={pattern} alt="pattern" />
+      <div className="section bottom_section">
+        <div className="gallery">
+          <img className="product_image" alt="product-hero" src={hero} />
+          <div className="text">
+            lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et
+            dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem
+            ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
+            magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
+            dolor sit amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus
+            libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
+            amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
+            lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et
+            dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem
+            ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
+            magnus libra mango
+          </div>
+          <img className="product_image" alt="product-hero" src={hero} />
+        </div>
+        <div className="outro">
+          lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
+          magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
+          dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus
+          libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
+          amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
+          lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
+          magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
+          dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus
+          libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
+          amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango
+        </div>
+      </div>
     </Wrapper>
   );
 };
