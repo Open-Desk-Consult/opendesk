@@ -6,7 +6,9 @@ import logo from '../../assets/images/logo.png';
 export default ({ page }) => {
   return (
     <Wrapper>
-      <img src={logo} className="logo" alt="logo" />
+      <a href="/">
+        <img src={logo} className="logo" alt="logo" />
+      </a>
       <div className="menu">
         <div
           className="item"

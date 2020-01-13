@@ -3,11 +3,10 @@ import styled from 'styled-components';
 export default styled.div`
   width: calc(100vw - 200px);
   height: 100vh;
-
   display: flex;
   position: relative;
-
   scroll-snap-align: start;
+  cursor:url(https://res.cloudinary.com/devmarshall/image/upload/c_scale,q_100,w_50/v1578939716/Asset_4_4x_igkbbq.png), auto;
 
   .main {
     width: 55%;
@@ -45,9 +44,6 @@ export default styled.div`
     background-color: #1d1d1b;
     display: flex;
     padding-left: 6vw;
-    
-    
-
 
     .project-img {
       height: auto;
