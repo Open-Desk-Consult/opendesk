@@ -5,7 +5,7 @@ export default styled.div`
   height: 100vh;
 
   display: flex;
-      position: relative;
+  position: relative;
 
   scroll-snap-align: start;
 
@@ -45,11 +45,21 @@ export default styled.div`
     background-color: #1d1d1b;
     display: flex;
     padding-left: 6vw;
+    
+    
+
 
     .project-img {
       height: auto;
       width: 80%;
       align-self: center;
+      justify-self: center;
+      transition: all ease-in-out 400ms;
+
+      :hover {
+        cursor: pointer;
+        transform: scale(1.03);
+      }
     }
 
     .nav-counter {

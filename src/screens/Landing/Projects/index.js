@@ -1,8 +1,8 @@
 import React from 'react';
-import ProjectPage from './ProjectPage';
+import Page from './Page';
 import Wrapper from './Wrapper';
 import ReactSnapScroll from 'react-snap-scroll';
-import Image from '../../assets/images/project-1.jpg';
+import Image from '../../../assets/images/project-1.jpg';
 
 const project_data = [
   {
@@ -25,7 +25,7 @@ export default () => {
       <ReactSnapScroll orientation="horizontal" transition="scale-down-up">
         {project_data.map((item, index) => (
           <Wrapper key={index}>
-            <ProjectPage index={index + 1} length={project_data.length} {...item} />
+            <Page index={index + 1} length={project_data.length} {...item} />
           </Wrapper>
         ))}
       </ReactSnapScroll>

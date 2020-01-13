@@ -15,7 +15,7 @@ export default () => {
   return (
     <Wrapper>
       <SideNav {...{ page }} />
-      <Content {...{ setPage, routes }} />
+      <Content className="content" {...{ setPage, routes }} />
     </Wrapper>
   );
 };

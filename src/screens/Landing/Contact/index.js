@@ -1,6 +1,6 @@
 import React from 'react';
 import Wrapper from './Wrapper';
-import Image from '../../assets/images/hero-contact.jpg';
+import Image from '../../../assets/images/hero-contact.jpg';
 
 export default () => {
   return (

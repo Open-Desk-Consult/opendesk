@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../../../assets/images/project-1.jpg';
+import { Link } from 'react-router-dom';
 
 export default ({ category, image, description, index, length }) => {
   const max_digits = length.toString().length;
@@ -23,7 +23,9 @@ export default ({ category, image, description, index, length }) => {
         </div>
       </div>
       <div className="project-main">
-        <img className="project-img" src={Image} />
+        <Link to="/project" style={{ justifyContent: 'center', display: 'flex' }}>
+          <img className="project-img" src={image} />
+        </Link>
         <div className="nav-counter">
           <div>{`${index_prefix}${index}`}</div>
           <div>/</div>
