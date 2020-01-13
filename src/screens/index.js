@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Landing from './Landing';
 import Project from './Project';
 import Wrapper from './Wrapper';
@@ -9,10 +9,9 @@ export default ({ routes, setPage }) => {
     <Wrapper>
       <Router>
         <Switch>
-          <Route path="/project" component={Project} />
-          <Route path="/">
-            <Landing {...{ routes, setPage }} />
-          </Route>
+          <Route path="/project" render={() => <Project />} />
+          <Route exact path="/" render={() => <Landing {...{ routes, setPage }} />} />
+          <Redirect to="/" />
         </Switch>
       </Router>
     </Wrapper>
