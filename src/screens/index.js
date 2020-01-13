@@ -9,9 +9,7 @@ export default ({ routes, setPage }) => {
     <Wrapper>
       <Router>
         <Switch>
-          <Route path="/project">
-            <Project />
-          </Route>
+          <Route path="/project" component={Project} />
           <Route path="/">
             <Landing {...{ routes, setPage }} />
           </Route>
