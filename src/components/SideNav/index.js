@@ -31,11 +31,29 @@ export default ({ page }) => {
         <div
           className="item"
           style={{
+            color: page === 'PRODUCTS' ? 'black' : '#646464',
+            fontWeight: page === 'PRODUCTS' ? 'bold' : 'inherit',
+          }}
+        >
+          PRODUCTS
+        </div>
+        <div
+          className="item"
+          style={{
             color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'PROJECTS' ? 'bold' : 'inherit',
           }}
         >
           PROJECTS
+        </div>
+        <div
+          className="item"
+          style={{
+            color: page === 'PARTNERS' ? 'black' : '#646464',
+            fontWeight: page === 'PARTNERS' ? 'bold' : 'inherit',
+          }}
+        >
+          PARTNERS
         </div>
         <div
           className="item"

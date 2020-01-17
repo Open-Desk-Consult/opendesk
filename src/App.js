@@ -11,7 +11,7 @@ const Wrapper = styled.div`
 export default () => {
   const [page, setPage] = useState('HOME');
 
-  const routes = ['HOME', 'SERVICES', 'PROJECTS', 'CONTACT'];
+  const routes = ['HOME', 'SERVICES','PRODUCTS', 'PROJECTS', 'PARTNERS', 'CONTACT'];
   return (
     <Wrapper>
       <SideNav {...{ page }} />

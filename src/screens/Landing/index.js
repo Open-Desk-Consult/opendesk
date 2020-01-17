@@ -2,6 +2,8 @@ import React from 'react';
 import { Fullpage, Slide } from 'fullpage-react';
 import Home from './Home';
 import Contact from './Contact';
+import Products from './Products';
+import Partners from './Partners';
 import Projects from './Projects';
 import Services from './Services';
 import Wrapper from './Wrapper';
@@ -25,7 +27,13 @@ export default ({ routes, setPage }) => {
       <Services />
     </StyledSlide>,
     <StyledSlide>
+      <Products />
+    </StyledSlide>,
+    <StyledSlide>
       <Projects />
+    </StyledSlide>,
+    <StyledSlide>
+      <Partners />
     </StyledSlide>,
     <StyledSlide>
       <Contact />
