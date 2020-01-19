@@ -1,9 +1,14 @@
 import React from 'react';
+import { Fullpage } from 'fullpage-react';
 
 import Wrapper from './Wrapper';
 import logo from '../../assets/images/logo.png';
 
 export default ({ page }) => {
+  const changePage = index => {
+    Fullpage.changeFullpageSlide(index);
+  };
+
   return (
     <Wrapper>
       <a href="/">
@@ -16,6 +21,7 @@ export default ({ page }) => {
             color: page === 'HOME' ? 'black' : '#646464',
             fontWeight: page === 'HOME' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(0)}
         >
           HOME
         </div>
@@ -25,6 +31,7 @@ export default ({ page }) => {
             color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'SERVICES' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(1)}
         >
           SERVICES
         </div>
@@ -34,6 +41,7 @@ export default ({ page }) => {
             color: page === 'PRODUCTS' ? 'black' : '#646464',
             fontWeight: page === 'PRODUCTS' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(2)}
         >
           PRODUCTS
         </div>
@@ -43,6 +51,7 @@ export default ({ page }) => {
             color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'PROJECTS' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(3)}
         >
           PROJECTS
         </div>
@@ -52,6 +61,7 @@ export default ({ page }) => {
             color: page === 'PARTNERS' ? 'black' : '#646464',
             fontWeight: page === 'PARTNERS' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(4)}
         >
           PARTNERS
         </div>
@@ -61,6 +71,7 @@ export default ({ page }) => {
             color: page === 'SERVICES' ? 'black' : '#646464',
             fontWeight: page === 'CONTACT' ? 'bold' : 'inherit',
           }}
+          onClick={() => changePage(5)}
         >
           CONTACT
         </div>

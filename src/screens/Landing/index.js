@@ -13,6 +13,8 @@ const StyledSlide = styled(Slide)`
   //width: calc(100vw - 200px);
 `;
 
+
+
 export default ({ routes, setPage }) => {
   const handleScroll = (name, props, state, newState) => {
     const { activeSlide } = newState;
