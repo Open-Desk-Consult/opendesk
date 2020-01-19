@@ -13,8 +13,6 @@ const StyledSlide = styled(Slide)`
   //width: calc(100vw - 200px);
 `;
 
-
-
 export default ({ routes, setPage }) => {
   const handleScroll = (name, props, state, newState) => {
     const { activeSlide } = newState;
@@ -43,7 +41,9 @@ export default ({ routes, setPage }) => {
   ];
 
   const fullpage_options = {
-    scrollSensitivity: 1,
+    scrollSensitivity: 7,
+    touchSensitivity: 7,
+    enableArrowKeys: true,
     onSlideChangeEnd: handleScroll,
     slides,
   };

@@ -8,22 +8,39 @@ import img3 from '../../../assets/images/project-3.jpg';
 
 const project_data = [
   {
-    category: 'ENGINEERING',
+    category: 'Developed for Shell Nigeria PLC',
     image: img1,
+    name: 'T & L (Thrift and Loan Fund Administration)',
     description:
-      'A fleet management system to allow efficient monitoring and traffic data analysis',
+      'Platform to manage all loans and repayments in one place efficiently. View loan details including repayments, loan terms, loan schedule, collateral, files, and comments.',
   },
   {
-    category: 'DESIGN AND ENGINEERING',
+    category: 'Developed for Shell Nigeria PLC',
     image: img2,
+    name: 'SDMIS(Sustainable Development Management Information System)',
+    description:
+      'A business consultant working on analysis, planning, implementation and evaluation of projects',
+  },
+  {
+    category: 'Developed for Shell Nigeria PLC',
+    image: img3,
+    name: 'Nigeria Content Management System',
+    description:
+      'A platform primarily used to manage the creation and modification of digital content',
+  },
+  {
+    category: 'Developed for Shell Nigeria PLC',
+    image: img3,
+    name: 'PCSIS',
     description:
       'A personnel management system for the management of company assets and expatriate contracts',
   },
   {
-    category: 'DESIGN',
+    category: 'Developed for DPR and conference organizers',
     image: img3,
+    name: 'International HSE Biennial Conference on the Oil and Gas Industry In Nigeria',
     description:
-      'A multi-tenant software solution for pan-african telecommunications and internet service providers',
+      'A business consultant working on analysis, planning, implementation and evaluation of projects',
   },
 ];
 

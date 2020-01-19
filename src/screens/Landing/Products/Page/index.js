@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default ({ category, image, description, index, length }) => {
+export default ({ category, image, name, description, index, length }) => {
   const max_digits = length.toString().length;
   const length_prefix = max_digits <= 1 ? '0' : '';
 
@@ -14,15 +14,15 @@ export default ({ category, image, description, index, length }) => {
   return (
     <>
       <div className="main">
-        <div className="header">PROJECTS</div>
+        <div className="header">PRODUCTS</div>
         <div className="content">
-          <div className="intro">Here's some work we're proud to be part of:</div>
+          <div className="intro">{name}</div>
           <div className="intro-project">{description}</div>
           <div className="class-project">{category}</div>
         </div>
       </div>
       <div className="project-main">
-        <a href="/project" to="/project" style={{ justifyContent: 'center', display: 'flex' }}>
+        <a href="/product" style={{ justifyContent: 'center', display: 'flex' }}>
           <img className="project-img" src={image} />
         </a>
         <div className="nav-counter">

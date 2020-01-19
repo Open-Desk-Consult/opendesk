@@ -24,16 +24,16 @@ export default styled.div`
 
     .content {
       padding-left: 152px;
-      margin-top: 69px;
+      margin-top: 15vh;
       font-size: 35px;
 
       .intro {
         font-size: 35px;
-        margin-bottom: 110px;
+        margin-bottom: 5vh;
       }
 
       .intro-project {
-        width: 450px;
+        width: 30vw;
       }
 
       .class-project {

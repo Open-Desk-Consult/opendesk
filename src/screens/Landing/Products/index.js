@@ -8,22 +8,35 @@ import img3 from '../../../assets/images/project-3.jpg';
 
 const product_data = [
   {
-    category: 'ENGINEERING',
+    category: 'DESIGN AND ENGINEERING',
     image: img1,
-    description:
-      'A fleet management system to allow efficient monitoring and traffic data analysis',
+    name: 'T.ALERT',
+    description: 'Bank Transaction alert Solution for both email and SMS',
   },
   {
     category: 'DESIGN AND ENGINEERING',
     image: img2,
-    description:
-      'A personnel management system for the management of company assets and expatriate contracts',
+    name: 'FLITRACK',
+    description: 'Fleet management solution for vehicle tracking and management',
   },
   {
-    category: 'DESIGN',
+    category: 'DESIGN AND ENGINEERING',
     image: img3,
+    name: 'BAYA',
+    description: 'Estate management solution',
+  },
+  {
+    category: 'DESIGN AND ENGINEERING',
+    image: img3,
+    name: 'PETREL',
     description:
-      'A multi-tenant software solution for pan-african telecommunications and internet service providers',
+      'Fund administrator and management solution for Thrifting, Loan, Withdrawal, Corperative, etc',
+  },
+  {
+    category: 'DESIGN AND ENGINEERING',
+    image: img3,
+    name: 'MICA',
+    description: 'Mobile app for hailing Cab',
   },
 ];
 
