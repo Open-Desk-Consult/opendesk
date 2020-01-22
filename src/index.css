@@ -63,3 +63,9 @@ code {
   transition: transform 1000ms ease-in-out;
   transform: translateX(100%);
 }
+
+iframe {
+  align-self: center;
+  width: 100%;
+  height: 100%;
+}
