@@ -9,16 +9,21 @@ export default styled.div`
   padding-left: 60px;
   position: fixed;
 
-  .logo {
-    height: 70px;
-    width: 90px;
+  .top {
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
 
-    transition: all ease-in-out 300ms;
+    .logo {
+      height: auto;
+      width: 90px;
+      margin-bottom: 30px;
+      transition: all ease-in-out 300ms;
 
-    :hover {
-      transform: scale(1.05);
-      cursor: pointer;
+      :hover {
+        transform: scale(1.05);
+        cursor: pointer;
+      }
     }
   }
 

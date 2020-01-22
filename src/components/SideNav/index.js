@@ -3,6 +3,7 @@ import { Fullpage } from 'fullpage-react';
 
 import Wrapper from './Wrapper';
 import logo from '../../assets/images/logo.png';
+import logo_acumatica from '../../assets/images/logo-acumatica.svg'
 
 export default ({ page }) => {
   const changePage = index => {
@@ -11,9 +12,15 @@ export default ({ page }) => {
 
   return (
     <Wrapper>
-      <a href="/">
-        <img src={logo} className="logo" alt="logo" />
-      </a>
+      <div className="top">
+        <a href="/">
+          <img src={logo} className="logo" alt="logo" />
+        </a>
+        <a href="https://www.acumatica.com" target="_blank">
+          <img src={logo_acumatica} className="logo" alt="logo" />
+        </a>
+      </div>
+
       <div className="menu">
         <div
           className="item"

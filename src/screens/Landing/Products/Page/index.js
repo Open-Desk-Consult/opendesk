@@ -1,4 +1,10 @@
 import React from 'react';
+import SplitText from 'react-pose-text';
+
+const wordPoses = {
+  exit: { opacity: 0 },
+  enter: { opacity: 1, delay: ({ wordIndex }) => wordIndex * 250 },
+};
 
 export default ({ category, image, name, description, index, length }) => {
   const max_digits = length.toString().length;
@@ -17,7 +23,11 @@ export default ({ category, image, name, description, index, length }) => {
         <div className="header">PRODUCTS</div>
         <div className="content">
           <div className="intro">{name}</div>
-          <div className="intro-project">{description}</div>
+          <div className="intro-project">
+            <SplitText initialPose="exit" pose="enter" {...{ wordPoses }}>
+              {description}
+            </SplitText>
+          </div>
           <div className="class-project">{category}</div>
         </div>
       </div>

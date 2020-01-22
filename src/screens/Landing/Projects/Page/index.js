@@ -1,6 +1,12 @@
 import React from 'react';
+import SplitText from 'react-pose-text';
 
-export default ({ category, name, image, description, index, length }) => {
+const wordPoses = {
+  exit: { opacity: 0 },
+  enter: { opacity: 1, delay: ({ wordIndex }) => wordIndex * 250 },
+};
+
+export default ({ category, image, name, description, index, length }) => {
   const max_digits = length.toString().length;
   const length_prefix = max_digits <= 1 ? '0' : '';
 
@@ -17,12 +23,16 @@ export default ({ category, name, image, description, index, length }) => {
         <div className="header">PROJECTS</div>
         <div className="content">
           <div className="intro">{name}</div>
-          <div className="intro-project">{description}</div>
+          <div className="intro-project">
+            <SplitText initialPose="exit" pose="enter" {...{ wordPoses }}>
+              {description}
+            </SplitText>
+          </div>
           <div className="class-project">{category}</div>
         </div>
       </div>
       <div className="project-main">
-        <a href="/project" to="/project" style={{ justifyContent: 'center', display: 'flex' }}>
+        <a href="/product" style={{ justifyContent: 'center', display: 'flex' }}>
           <img className="project-img" src={image} />
         </a>
         <div className="nav-counter">
