@@ -16,11 +16,6 @@ export default () => {
             magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
             dolor sit amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus
             libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
-            amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
-            lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et
-            dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem
-            ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
-            magnus libra mango
           </div>
         </div>
         <img className="product_image" alt="product-hero" src={hero} />
@@ -36,11 +31,6 @@ export default () => {
             magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
             dolor sit amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus
             libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
-            amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
-            lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et
-            dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem
-            ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
-            magnus libra mango
           </div>
           <img className="product_image" alt="product-hero" src={hero} />
         </div>
@@ -51,10 +41,6 @@ export default () => {
           libra mango lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
           amet et dolor magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango
           lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor
-          magnus libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum
-          dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus
-          libra mango. lorem ipsum dolor sit amet et dolor magnus libra mango lorem ipsum dolor sit
-          amet et dolor magnus libra mango lorem ipsum dolor sit amet et dolor magnus libra mango
         </div>
       </div>
     </Wrapper>

@@ -8,11 +8,19 @@ export default styled.div`
   display: flex;
   flex-direction: column;
 
+  @media only screen and (max-width: 1350px) {
+    padding-left: 30px;
+  }
+
   .pattern {
     top: 90vh;
     position: absolute;
     height: 20vh;
     align-self: flex-end;
+
+    @media only screen and (max-width: 1350px) {
+      display: none;
+    }
   }
   .section {
     margin-bottom: 20vh;
@@ -25,11 +33,18 @@ export default styled.div`
     height: 100vh;
 
     flex-direction: row;
-
     justify-content: space-between;
+
+    @media only screen and (max-width: 1350px) {
+      padding-right: 0px;
+    }
+
     .content {
       width: 37.5%;
       padding-top: 20vh;
+      @media only screen and (max-width: 1350px) {
+        width: 45%;
+      }
       .header {
         font-weight: bold;
         font-size: 28px;
