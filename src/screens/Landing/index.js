@@ -41,8 +41,8 @@ export default ({ routes, setPage }) => {
   ];
 
   const fullpage_options = {
-    scrollSensitivity: 7,
-    touchSensitivity: 7,
+    scrollSensitivity: 3,
+    touchSensitivity: 1,
     enableArrowKeys: true,
     onSlideChangeEnd: handleScroll,
     slides,
