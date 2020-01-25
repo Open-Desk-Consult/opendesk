@@ -25,10 +25,6 @@ export default () => (
         <img src={logo_acumatica} className="item" alt="logo" />
         <img src={logo_acumatica} className="item" alt="logo" />
         <img src={logo_acumatica} className="item" alt="logo" />
-        <img src={logo_acumatica} className="item" alt="logo" />
-        <img src={logo_acumatica} className="item" alt="logo" />
-        <img src={logo_acumatica} className="item" alt="logo" />
-        <img src={logo_acumatica} className="item" alt="logo" />
       </div>
     </div>
   </Wrapper>

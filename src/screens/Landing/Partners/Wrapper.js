@@ -34,7 +34,7 @@ export default styled.div`
       flex-direction: row;
       flex-wrap: wrap;
       .item {
-        margin: 30px 20px 20px 0px;
+        margin: 40px 60px 20px 0px;
         height: 60px;
         width: auto;
       }
