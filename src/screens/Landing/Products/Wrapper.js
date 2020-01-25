@@ -5,6 +5,7 @@ export default styled.div`
   height: 100vh;
   display: flex;
   position: relative;
+  justify-content: space-between;
   scroll-snap-align: start;
   cursor: url(
       https://res.cloudinary.com/devmarshall/image/upload/c_scale,
@@ -14,7 +15,7 @@ export default styled.div`
     auto;
 
   .main {
-    width: 55%;
+    width: 50%;
     .header {
       padding-top: 100px;
       padding-left: 152px;
@@ -33,7 +34,7 @@ export default styled.div`
       }
 
       .intro-project {
-        width: 30vw;
+        //width: 35vw;
       }
 
       .class-project {

@@ -11,7 +11,7 @@ const product_data = [
     category: 'DESIGN AND ENGINEERING',
     image: img1,
     name: 'T.ALERT',
-    description: 'Bank Transaction alert Solution for both email and SMS',
+    description: 'Bank Transaction alert Solution for email and SMS',
   },
   {
     category: 'DESIGN AND ENGINEERING',

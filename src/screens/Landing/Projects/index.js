@@ -12,7 +12,7 @@ const project_data = [
     image: img1,
     name: 'T & L (Thrift and Loan Fund Administration)',
     description:
-      'Platform to manage all loans and repayments in one place efficiently. View loan details including repayments, loan terms, loan schedule, collateral, files, and comments.',
+      'Platform to manage all loans and repayments in one place efficiently',
   },
   {
     category: 'Developed for Shell Nigeria PLC',
