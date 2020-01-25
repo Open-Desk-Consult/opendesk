@@ -42,6 +42,8 @@ export default styled.div`
       flex-direction: row;
       flex-wrap: wrap;
 
+      justify-content: space-between;
+
       @media only screen and (max-width: 1350px) {
         justify-content: space-between;
       }
