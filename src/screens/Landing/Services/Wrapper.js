@@ -18,7 +18,7 @@ export default styled.div`
     display: flex;
     flex-direction: row;
     .col {
-      width: 30vw;
+      width: 38%;
       .col_header {
         margin-bottom: 77px;
       }
