@@ -9,6 +9,10 @@ export default styled.div`
     padding-left: 152px;
     color: #646464;
     font-size: 13px;
+
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
   }
 
   .content {
@@ -20,6 +24,10 @@ export default styled.div`
     justify-content: space-between;
     height: calc(100vh - 185px);
 
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
+
     .main {
       display: flex;
       flex-direction: row;
@@ -28,11 +36,25 @@ export default styled.div`
       .text {
         width: 30%;
         font-weight: bold;
+        padding-right: 50px;
+
+        @media only screen and (max-width: 900px) {
+          width: 90%;
+        }
       }
 
       .hero {
         height: 50vh;
         padding-right: 157px;
+        @media only screen and (max-width: 1400px) {
+          padding-right: 30px;
+          width: 20vw;
+          height: auto;
+        }
+
+        @media only screen and (max-width: 900px) {
+          display: none;
+        }
       }
     }
     .info {
@@ -42,6 +64,11 @@ export default styled.div`
       padding-right: 157px;
       text-align: end;
       padding-bottom: 80px;
+
+      @media only screen and (max-width: 1350px) {
+        padding-right: 30px;
+      }
+
       .minor {
         font-size: 22px;
         text-decoration: underline;

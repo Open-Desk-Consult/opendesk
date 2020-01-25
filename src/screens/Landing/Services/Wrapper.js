@@ -9,6 +9,10 @@ export default styled.div`
     padding-left: 152px;
     color: #646464;
     font-size: 13px;
+
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
   }
 
   .content {
@@ -17,6 +21,10 @@ export default styled.div`
     font-size: 35px;
     display: flex;
     flex-direction: row;
+
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
     .col {
       width: 38%;
       .col_header {

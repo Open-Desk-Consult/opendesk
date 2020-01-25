@@ -9,12 +9,20 @@ export default styled.div`
     padding-left: 152px;
     color: #646464;
     font-size: 13px;
+
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
   }
 
   .content {
     padding-left: 152px;
     margin-top: 85px;
     font-size: 35px;
+
+    @media only screen and (max-width: 1350px) {
+      padding-left: 0px;
+    }
 
     .title {
       margin-bottom: 20px;
@@ -33,10 +41,18 @@ export default styled.div`
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+
+      @media only screen and (max-width: 1350px) {
+        justify-content: space-between;
+      }
       .item {
         margin: 40px 60px 20px 0px;
-        height: 60px;
+        height: 50px;
         width: auto;
+
+        @media only screen and (max-width: 1350px) {
+          height: 40px;
+        }
       }
     }
   }

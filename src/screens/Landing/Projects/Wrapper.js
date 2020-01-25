@@ -21,20 +21,28 @@ export default styled.div`
       padding-left: 152px;
       color: #646464;
       font-size: 13px;
+
+      @media only screen and (max-width: 1350px) {
+        padding-left: 0px;
+      }
     }
 
     .content {
       padding-left: 152px;
       margin-top: 15vh;
       font-size: 35px;
+      @media only screen and (max-width: 1350px) {
+        padding-left: 0px;
+      }
 
       .intro {
         font-size: 35px;
         margin-bottom: 5vh;
+        padding-right: 35px;
       }
 
       .intro-project {
-        //width: 35vw;
+        padding-right: 35px;
       }
 
       .class-project {

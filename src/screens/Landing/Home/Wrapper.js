@@ -11,8 +11,16 @@ export default styled.div`
     padding-top: 30vh;
     font-size: 45.5px;
 
+    @media only screen and (max-width: 1350px) {
+      padding-left: 30px;
+    }
+
     .text {
       width: 60%;
+
+      @media only screen and (max-width: 1350px) {
+        width: 95%;
+      }
     }
 
     .hero_container {
@@ -20,6 +28,9 @@ export default styled.div`
       justify-content: flex-end;
       display: flex;
       padding-right: 20px;
+      @media only screen and (max-width: 1350px) {
+        display: none;
+      }
       .hero {
         align-self: flex-end;
         height: 50vh;
