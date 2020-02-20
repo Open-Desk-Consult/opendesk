@@ -15,7 +15,7 @@
     "react-pose": "^4.0.10",
     "react-pose-text": "^3.1.0",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
+    "react-scripts": "^3.4.0",
     "react-scroll-horizontal": "^1.6.2",
     "react-snap-scroll": "^0.0.5",
     "styled-components": "^4.4.1"
